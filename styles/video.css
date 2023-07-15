@@ -1,0 +1,33 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 15px;
+    row-gap: 40px;
+    background-color: rgb(228, 238, 247);
+    margin-top: 72px;
+}
+
+.video-card {
+    display: flex;
+}
+
+.video-container {
+    position: relative;
+}
+
+.video-time {
+    position: absolute;
+}
+
+.video-info-grid {
+
+}
+
+.profile-picture {
+
+}
+
+.video-info {
+
+}

@@ -1,0 +1,26 @@
+.sidebar {
+    margin-top: 72px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-content: center;
+    width: 72px;
+    height: 100vh;
+    font-size: 10px;
+    text-align: center;
+}
+
+.sidebar-link {
+    height: 74px;
+    margin-bottom: 5px;
+}
+
+.sidebar :first-child {
+    margin-top: 10px;
+}
+
+.sidebar-link img {
+    width: 26px;
+    height: 26px;
+}
